@@ -22,3 +22,5 @@ List of available packages:
 | liberica-jdk11-lite | Liberica JDK 11 lite version | 11.0.3+12 |
 | liberica-jdk8 | Liberica JDK 8 | 1.8.0_212 |
 | liberica-jre8 | Liberica JRE 8 | 1.8.0_212 |
+
+For more detailed information please visit [BellSoft site](https://bell-sw.com) 
