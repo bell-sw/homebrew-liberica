@@ -1,9 +1,11 @@
-# Liberica JDK Homebrew Tap
+# Liberica JDK Homebrew and Linuxbrew Tap
 
 BellSoft Liberica is a build of OpenJDK that is tested and verified to be compliant with the Java SE specification using OpenJDK Technology Compatibility Kit test suite. The distribution includes OpenJFX.
 
 If you are looking for smaller footprint, yet fully functitonal JDK, download the "lite" version below.
 It does not have javafx modules and the modules are compressed.
+
+## Homebrew
 
 To install Liberica JDK package run the following commands:
 
