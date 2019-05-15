@@ -1,4 +1,4 @@
-class LibericaJdkAT8 < Formula
+class LibericaJdkAT12 < Formula
   desc "100% open-source Java implementation"
   homepage "https://bell-sw.com/"
   url "https://download.bell-sw.com/java/12.0.1/bellsoft-jdk12.0.1-linux-amd64.tar.gz"
