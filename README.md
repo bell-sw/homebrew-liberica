@@ -25,8 +25,6 @@ List of available packages:
 | liberica-jdk8 | Liberica JDK 8 | 1.8.0_212 |
 | liberica-jre8 | Liberica JRE 8 | 1.8.0_212 |
 
-For more detailed information please visit [BellSoft site](https://bell-sw.com) 
-
 ## Linuxbrew
 
 To install Liberica JDK package run the following commands:
@@ -43,3 +41,5 @@ List of available packages:
 | liberica-jdk@12 | Liberica JDK 12 | 12.0.1 |
 | liberica-jdk@11 | Liberica JDK 11 | 11.0.3 |
 | liberica-jdk, liberica-jdk@8 | Liberica JDK 8 | 1.8.0_212 |
+
+For more detailed information please visit [BellSoft site](https://bell-sw.com) 
