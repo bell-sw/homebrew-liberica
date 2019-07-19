@@ -1,13 +1,13 @@
 cask 'liberica-jdk11' do
-  version '11.0.3,12'
-  sha256 '602ba0f26dc2b40604fa7bf0af8ad31e62ea4dfebd2697526ef47a1d25f14cd3'
+  version '11.0.4,10'
+  sha256 'a99b1d9e8378b585fad2fe97b7aeff16053d93c814c909d6fa7d3749948ec91a'
 
-  url "https://download.bell-sw.com/java/11.0.3/bellsoft-jdk11.0.3-macos-amd64.pkg"
+  url "https://download.bell-sw.com/java/11.0.4/bellsoft-jdk11.0.4-macos-amd64.pkg"
   name 'BellSoft Liberica JDK 11'
   homepage 'https://bell-sw.com'
 
-  pkg 'bellsoft-jdk11.0.3-macos-amd64.pkg'
+  pkg 'bellsoft-jdk11.0.4-macos-amd64.pkg'
 
-  uninstall pkgutil: 'com.bell-sw.liberica.jdk.11.0.3'
+  uninstall pkgutil: 'com.bell-sw.liberica.jdk.11.0.4'
 
 end

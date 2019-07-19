@@ -18,12 +18,12 @@ List of available packages:
 
 | Package | Version | Actual version |
 | ------- | ------- | -------------- |
-| liberica-jdk12 | Liberica JDK 12 | 12.0.1 |
-| liberica-jdk12-lite | Liberica JDK 12 lite version | 12.0.1 |
-| liberica-jdk11 | Liberica JDK 11 | 11.0.3 |
-| liberica-jdk11-lite | Liberica JDK 11 lite version | 11.0.3 |
-| liberica-jdk8 | Liberica JDK 8 | 1.8.0_212 |
-| liberica-jre8 | Liberica JRE 8 | 1.8.0_212 |
+| liberica-jdk12 | Liberica JDK 12 | 12.0.2 |
+| liberica-jdk12-lite | Liberica JDK 12 lite version | 12.0.2 |
+| liberica-jdk11 | Liberica JDK 11 | 11.0.4 |
+| liberica-jdk11-lite | Liberica JDK 11 lite version | 11.0.4 |
+| liberica-jdk8 | Liberica JDK 8 | 1.8.0_222 |
+| liberica-jre8 | Liberica JRE 8 | 1.8.0_222 |
 
 ## Linuxbrew
 
@@ -38,8 +38,8 @@ List of available packages:
 
 | Package | Version | Actual version |
 | ------- | ------- | -------------- |
-| liberica-jdk@12 | Liberica JDK 12 | 12.0.1 |
-| liberica-jdk@11 | Liberica JDK 11 | 11.0.3 |
-| liberica-jdk, liberica-jdk@8 | Liberica JDK 8 | 1.8.0_212 |
+| liberica-jdk@12 | Liberica JDK 12 | 12.0.2 |
+| liberica-jdk@11 | Liberica JDK 11 | 11.0.4 |
+| liberica-jdk, liberica-jdk@8 | Liberica JDK 8 | 1.8.0_222 |
 
 For more detailed information please visit [BellSoft site](https://bell-sw.com) 
