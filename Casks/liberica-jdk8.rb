@@ -1,6 +1,6 @@
 cask 'liberica-jdk8' do
   version '1.8.0,222'
-  sha256 'd90746c32ca4f1072d4d1a1f4c47f76d380abb657eb985a00e151aa7d39b31fa'
+  sha256 '04dcf907f0891c49f993853a09d8e3d6b9f3f00a9adfa1f9ad409f5b5730146a'
 
   url "https://download.bell-sw.com/java/8u222/bellsoft-jdk8u222-macos-amd64.pkg"
   name 'BellSoft Liberica JDK 8'
