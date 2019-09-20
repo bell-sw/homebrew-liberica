@@ -1,4 +1,4 @@
-class LibericaJdkAT13lite < Formula
+class LibericaJdkAT13Lite < Formula
   desc "100% open-source Java implementation"
   homepage "https://bell-sw.com/"
   url "https://download.bell-sw.com/java/13/bellsoft-jdk13-linux-amd64-lite.tar.gz"
