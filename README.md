@@ -38,6 +38,8 @@ List of available packages:
 
 | Package | Version | Actual version |
 | ------- | ------- | -------------- |
+| liberica-jdk@13-lite | Liberica JDK 13 lite version | 13 |
+| liberica-jdk@13 | Liberica JDK 13 | 13 |
 | liberica-jdk@12 | Liberica JDK 12 | 12.0.2 |
 | liberica-jdk@11 | Liberica JDK 11 | 11.0.4 |
 | liberica-jdk, liberica-jdk@8 | Liberica JDK 8 | 1.8.0_222 |
