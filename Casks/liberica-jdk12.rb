@@ -1,6 +1,6 @@
 cask 'liberica-jdk12' do
   version '12.0.2,10'
-  sha256 '34a360ba86a65efdebc3328a3f0d398c6de393c06da0d332f54167e5c3e20737'
+  sha256 'cdc59c5db582023e24986a14d41962e8df457f7e215bee0f83f27f04fc8572d2'
 
   url "https://download.bell-sw.com/java/12.0.2/bellsoft-jdk12.0.2-macos-amd64.pkg"
   name 'BellSoft Liberica JDK 12'
