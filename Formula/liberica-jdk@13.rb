@@ -1,10 +1,10 @@
 class LibericaJdkAT13 < Formula
   desc "100% open-source Java implementation"
   homepage "https://bell-sw.com/"
-  url "https://download.bell-sw.com/java/13/bellsoft-jdk13-linux-amd64.tar.gz"
+  url "https://download.bell-sw.com/java/13.0.1/bellsoft-jdk13.0.1-linux-amd64.tar.gz"
 
-  version "13"
-  sha256 "1672a8767cc94472151db8ce0e48520c2771b55adff28e9d126453b3ab27ad29"
+  version "13.0.1"
+  sha256 "abfa4b3ff4960524f5023c4d6484c0d44788329933650031bb23374271204266"
 
   depends_on :linux
 
