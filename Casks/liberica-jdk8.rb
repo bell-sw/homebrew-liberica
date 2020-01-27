@@ -8,6 +8,6 @@ cask 'liberica-jdk8' do
 
   pkg 'bellsoft-jdk8u242+7-macos-amd64.pkg'
 
-  uninstall pkgutil: 'com.bell-sw.liberica.jdk.1.8.0_242'
+  uninstall pkgutil: 'com.bell-sw.liberica.jdk8'
 
 end
