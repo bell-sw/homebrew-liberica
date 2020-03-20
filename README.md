@@ -18,6 +18,9 @@ List of available packages:
 
 | Package | Version | Actual version |
 | ------- | ------- | -------------- |
+| liberica-jdk14 | Liberica JDK 14 | 14+36 |
+| liberica-jdk14-lite | Liberica JDK 14 Lite version | 14+36 |
+| liberica-jdk14-full | Liberica JDK 14 Full version | 14+36 |
 | liberica-jdk13 | Liberica JDK 13 | 13.0.2 |
 | liberica-jdk13-lite | Liberica JDK 13 Lite version | 13.0.2 |
 | liberica-jdk13-full | Liberica JDK 13 Full version | 13.0.2 |
@@ -48,6 +51,9 @@ List of available packages:
 
 | Package | Version | Actual version |
 | ------- | ------- | -------------- |
+| liberica-jdk@14 | Liberica JDK 14 | 14+36 |
+| liberica-jdk@14-lite | Liberica JDK 14 Lite Version | 14+36 |
+| liberica-jdk@14-full | Liberica JDK 14 Full Version | 14+36 |
 | liberica-jdk@13 | Liberica JDK 13 | 13.0.2 |
 | liberica-jdk@13-lite | Liberica JDK 13 Lite version | 13.0.2 |
 | liberica-jdk@13-full | Liberica JDK 13 Full version | 13.0.2 |
