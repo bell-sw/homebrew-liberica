@@ -1,12 +1,12 @@
 cask 'liberica-jre8' do
-  version '1.8.0,242'
-  sha256 '9b17cb7d999880509365291098883943d92bc7821d54e7fb25ebaf7598f1c1fa'
+  version '1.8.0,252'
+  sha256 '7a05fa3a5455113d637cd283ce4d18e1978b58834754d93e6112c796694089ea'
 
-  url "https://download.bell-sw.com/java/8u242%2B7/bellsoft-jre8u242%2B7-macos-amd64.pkg"
+  url "https://download.bell-sw.com/java/8u252%2B9/bellsoft-jre8u252%2B9-macos-amd64.pkg"
   name 'BellSoft Liberica JRE 8'
   homepage 'https://bell-sw.com'
 
-  pkg 'bellsoft-jre8u242+7-macos-amd64.pkg'
+  pkg 'bellsoft-jre8u252+9-macos-amd64.pkg'
 
   uninstall pkgutil: 'com.bell-sw.liberica.jre8'
 
