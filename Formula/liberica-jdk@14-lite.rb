@@ -1,10 +1,10 @@
 class LibericaJdkAT14Lite < Formula
   desc "100% open-source Java implementation"
   homepage "https://bell-sw.com/"
-  url "https://download.bell-sw.com/java/14%2B36/bellsoft-jdk14%2B36-linux-amd64-lite.tar.gz"
+  url "https://download.bell-sw.com/java/14.0.1%2B8/bellsoft-jdk14.0.1%2B8-linux-amd64-lite.tar.gz"
 
-  version "14"
-  sha256 "61d17a84cfa4752c0e2f4c7ec5267be351c0e3d8cac13d11063c0a0555620dfb"
+  version "14.0.1"
+  sha256 "9a0c4102eee7c9995aa6fb0379bccfff3129b8c32d0a234a8234e86155e9467f"
 
   depends_on :linux
 
