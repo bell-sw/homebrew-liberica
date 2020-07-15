@@ -18,7 +18,7 @@ List of available packages:
 
 | Package | Version | Actual version |
 | ------- | ------- | -------------- |
-| liberica-jdk14 | Liberica JDK 14 | 14.0.1 |
+| liberica-jdk14 | Liberica JDK 14 | 14.0.2 |
 | liberica-jdk14-lite | Liberica JDK 14 Lite version | 14.0.2 |
 | liberica-jdk14-full | Liberica JDK 14 Full version | 14.0.2 |
 | liberica-jre14 | Liberica JRE 14 | 14.0.2 |
