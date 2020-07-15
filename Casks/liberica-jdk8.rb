@@ -1,12 +1,12 @@
 cask 'liberica-jdk8' do
-  version '1.8.0,252'
-  sha256 '19a45fe7f85bbb48460f415bc8b5f6a9154524682779538c683c13487fa9d1de'
+  version '1.8.0,262'
+  sha256 '08fffd88a30a514e3af9aa0d155ba3b929fd596eb404e04df7b8bebfb1d9c13f'
 
-  url "https://download.bell-sw.com/java/8u252%2B9/bellsoft-jdk8u252%2B9-macos-amd64.pkg"
+  url "https://download.bell-sw.com/java/8u262%2B10/bellsoft-jdk8u262%2B10-macos-amd64.pkg"
   name 'BellSoft Liberica JDK 8'
   homepage 'https://bell-sw.com'
 
-  pkg 'bellsoft-jdk8u252+9-macos-amd64.pkg'
+  pkg 'bellsoft-jdk8u262+10-macos-amd64.pkg'
 
   uninstall pkgutil: 'com.bell-sw.liberica.jdk8'
 

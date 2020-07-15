@@ -1,12 +1,12 @@
 cask 'liberica-jre14-full' do
-    version '14.0.1,8'
-    sha256 'a837db0868305ab7a52a78e0999b0d8669cd152c6b10a6fc5bfe4e820bd0c2e6'
+    version '14.0.2,13'
+    sha256 '59f208550106809fa1e7561f60b97c5664716152fd813aeb751338d6d23dad60'
   
-    url "https://download.bell-sw.com/java/14.0.1%2B8/bellsoft-jre14.0.1%2B8-macos-amd64-full.pkg"
+    url "https://download.bell-sw.com/java/14.0.2%2B13/bellsoft-jre14.0.2%2B13-macos-amd64-full.pkg"
     name 'BellSoft Liberica JRE 14'
     homepage 'https://bell-sw.com'
   
-    pkg 'bellsoft-jre14.0.1+8-macos-amd64-full.pkg'
+    pkg 'bellsoft-jre14.0.2+13-macos-amd64-full.pkg'
   
     uninstall pkgutil: 'com.bell-sw.liberica.jre14-full'
   
