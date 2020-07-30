@@ -36,9 +36,9 @@ List of available packages:
 | liberica-jre11 | Liberica JRE 11 | 11.0.8 |
 | liberica-jre11-full | Liberica JRE 11 Full version | 11.0.8 |
 | liberica-jdk8 | Liberica JDK 8 | 1.8.0_262 |
-| liberica-jdk8-full | Liberica JDK 8 Full version | 1.8.0_262 |
+| liberica-jdk8-full | Liberica JDK 8 Full version | 1.8.0_265 |
 | liberica-jre8 | Liberica JRE 8 | 1.8.0_262 |
-| liberica-jre8-full | Liberica JRE 8 Full version | 1.8.0_262 |
+| liberica-jre8-full | Liberica JRE 8 Full version | 1.8.0_265 |
 
 ## Linuxbrew
 
@@ -63,6 +63,6 @@ List of available packages:
 | liberica-jdk@11 | Liberica JDK 11 | 11.0.8 |
 | liberica-jdk@11-lite | Liberica JDK 11 Lite version | 11.0.8 |
 | liberica-jdk@11-full | Liberica JDK 11 Full version | 11.0.8 |
-| liberica-jdk, liberica-jdk@8 | Liberica JDK 8 | 1.8.0_262 |
+| liberica-jdk, liberica-jdk@8 | Liberica JDK 8 | 1.8.0_265 |
 
 For more detailed information please visit [BellSoft site](https://bell-sw.com) 
