@@ -2,7 +2,7 @@
 
 BellSoft Liberica is a build of OpenJDK that is tested and verified to be compliant with the Java SE specification using OpenJDK Technology Compatibility Kit test suite. The distribution includes OpenJFX.
 
-If you are looking for smaller footprint, yet fully functitonal JDK, download the "lite" version below.
+If you are looking for a smaller footprint, yet fully functional JDK, download the "lite" version below.
 It does not have javafx modules and the modules are compressed.
 
 ## Homebrew
@@ -40,10 +40,10 @@ List of available packages:
 | liberica-jdk11-full | Liberica JDK 11 Full version | 11.0.9 |
 | liberica-jre11 | Liberica JRE 11 | 11.0.9 |
 | liberica-jre11-full | Liberica JRE 11 Full version | 11.0.9 |
-| liberica-jdk8 | Liberica JDK 8 | 1.8.0_272 |
-| liberica-jdk8-full | Liberica JDK 8 Full version | 1.8.0_272 |
-| liberica-jre8 | Liberica JRE 8 | 1.8.0_272 |
-| liberica-jre8-full | Liberica JRE 8 Full version | 1.8.0_272 |
+| liberica-jdk8 | Liberica JDK 8 | 1.8.0_275 |
+| liberica-jdk8-full | Liberica JDK 8 Full version | 1.8.0_275 |
+| liberica-jre8 | Liberica JRE 8 | 1.8.0_275 |
+| liberica-jre8-full | Liberica JRE 8 Full version | 1.8.0_275 |
 
 ## Linuxbrew
 
@@ -71,6 +71,6 @@ List of available packages:
 | liberica-jdk@11 | Liberica JDK 11 | 11.0.9 |
 | liberica-jdk@11-lite | Liberica JDK 11 Lite version | 11.0.9 |
 | liberica-jdk@11-full | Liberica JDK 11 Full version | 11.0.9 |
-| liberica-jdk, liberica-jdk@8 | Liberica JDK 8 | 1.8.0_272 |
+| liberica-jdk, liberica-jdk@8 | Liberica JDK 8 | 1.8.0_275 |
 
 For more detailed information please visit [BellSoft site](https://bell-sw.com) 
