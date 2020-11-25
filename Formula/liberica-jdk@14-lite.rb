@@ -10,7 +10,6 @@ class LibericaJdkAT14Lite < Formula
 
   def install
     prefix.install Dir["*"]
-    share.install prefix/"man"
   end
 
   test do
