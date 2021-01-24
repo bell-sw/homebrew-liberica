@@ -1,9 +1,9 @@
 class LibericaJdkAT15Full < Formula
   desc "100% open-source Java implementation"
   homepage "https://bell-sw.com/"
-  url "https://download.bell-sw.com/java/15.0.1%2B9/bellsoft-jdk15.0.1%2B9-linux-amd64-full.tar.gz"
-  version "15.0.1"
-  sha256 "e67bfb80da24ff28ad7f9cd53b255b737d30739f0c949273d0d83067ad795815"
+  url "https://download.bell-sw.com/java/15.0.2%2B10/bellsoft-jdk15.0.2%2B10-linux-amd64-full.tar.gz"
+  version "15.0.2.10"
+  sha256 "a9db605304fd13f5e36760b30504e222e94a181fd1139124159ac20e3db8e04c"
 
   depends_on :linux
 
@@ -27,3 +27,4 @@ class LibericaJdkAT15Full < Formula
     assert_equal "Hello Homebrew\n", shell_output("#{bin}/java Hello")
   end
 end
+

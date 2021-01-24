@@ -1,13 +1,13 @@
 cask 'liberica-jre11-full' do
   desc "100% open-source Java implementation"
-  version '11.0.9.1,1'
-  sha256 '79e26a2da6ca922d55506ba570b14263359c80f842f52ebee93b75addd55e230'
+  version '11.0.10,9'
+  sha256 'e21eebbcdbf3e5eea6f27c12511b18a2cafca74bd2966657429e8378d4ba5f47'
 
-  url "https://download.bell-sw.com/java/11.0.9.1%2B1/bellsoft-jre11.0.9.1%2B1-macos-amd64-full.pkg"
+  url "https://download.bell-sw.com/java/11.0.10%2B9/bellsoft-jre11.0.10%2B9-macos-amd64-full.pkg"
   name 'BellSoft Liberica JRE 11'
   homepage 'https://bell-sw.com'
 
-  pkg 'bellsoft-jre11.0.9.1+1-macos-amd64-full.pkg'
+  pkg 'bellsoft-jre11.0.10+9-macos-amd64-full.pkg'
 
   uninstall pkgutil: 'com.bell-sw.liberica.jre11-full'
 
