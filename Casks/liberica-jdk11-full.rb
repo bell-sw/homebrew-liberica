@@ -8,10 +8,10 @@ cask 'liberica-jdk11-full' do
     url "https://download.bell-sw.com/java/11.0.11%2B9/bellsoft-jdk11.0.11%2B9-macos-amd64-full.pkg"
     pkg 'bellsoft-jdk11.0.11+9-macos-amd64-full.pkg'
   else
-    sha256 '71faed0b86badf8db29c22fda097ef75f57890012ed4b9f5f6ec5844950135bf'
+    sha256 '2a71a3185e7a82d053a6ca5e5856896afaa457acc57eb439b1a45c73edb608ba'
 
-    url "https://download.bell-sw.com/java/11.0.11%2B9/bellsoft-jdk11.0.11%2B9-macos-aarch64-full.pkg"
-    pkg 'bellsoft-jdk11.0.11+9-macos-aarch64-full.pkg'
+    url "https://download.bell-sw.com/java/11.0.11%2B10/bellsoft-jdk11.0.11%2B10-macos-aarch64-full.pkg"
+    pkg 'bellsoft-jdk11.0.11+10-macos-aarch64-full.pkg'
   end
 
   name 'BellSoft Liberica JDK 11'
