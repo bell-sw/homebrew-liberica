@@ -8,10 +8,10 @@ cask 'liberica-jdk8' do
     url "https://download.bell-sw.com/java/8u292%2B10/bellsoft-jdk8u292%2B10-macos-amd64.pkg"
     pkg 'bellsoft-jdk8u292+10-macos-amd64.pkg'
   else
-    sha256 '20d9398fc9c4ab3b1734c16138a294f5d0f02b94a89902daca8bd2aaec1f9c30'
+    sha256 '63b263e6bbecaf90cb22a5038ea941032537ec3b2551f7a39ce5d3f75c3e8948'
 
-    url "https://download.bell-sw.com/java/8u292%2B10/bellsoft-jdk8u292%2B10-macos-aarch64.pkg"
-    pkg 'bellsoft-jdk8u292+10-macos-aarch64.pkg'
+    url "https://download.bell-sw.com/java/8u292%2B11/bellsoft-jdk8u292%2B11-macos-aarch64.pkg"
+    pkg 'bellsoft-jdk8u292+11-macos-aarch64.pkg'
   end
 
   name 'BellSoft Liberica JDK 8'
