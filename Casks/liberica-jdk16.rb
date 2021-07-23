@@ -1,23 +1,23 @@
 cask 'liberica-jdk16' do
-  desc "100% open-source Java implementation"
-  version '16.0.1,9'
+	desc "100% open-source Java implementation"
+	version '16.0.2,7'
 
-  if Hardware::CPU.intel?
-    sha256 '9b95fa628c57e184eb6dff3c7cec3f0f9ad4eb331cba98229a8cc4c146f2a786'
+	if Hardware::CPU.intel?
+		sha256 'df9a3477fb29e28e750fd993e338d4ab14e3847d5d13503f257e2a626a81aab2'
 
-    url "https://download.bell-sw.com/java/16.0.1%2B9/bellsoft-jdk16.0.1%2B9-macos-amd64.pkg"
-    pkg 'bellsoft-jdk16.0.1+9-macos-amd64.pkg'
-  else
-    sha256 'd9aa058d7f8a2a7a3d7e45d7b1a373d4903c01325eadaac002e8b3fdf5b1b9bd'
+		url "https://download.bell-sw.com/java/16.0.2%2B7/bellsoft-jdk16.0.2%2B7-macos-amd64.pkg"
+  		pkg 'bellsoft-jdk16.0.2+7-macos-amd64.pkg'
+	else
+		sha256 '0e2c6c02590f3c7edc61fde78c04dfb0085c6ac0ae966963005bcbb737672f53'
 
-    url "https://download.bell-sw.com/java/16.0.1%2B10/bellsoft-jdk16.0.1%2B10-macos-aarch64.pkg"
-    pkg 'bellsoft-jdk16.0.1+10-macos-aarch64.pkg'
-  end
+		url "https://download.bell-sw.com/java/16.0.2%2B7/bellsoft-jdk16.0.2%2B7-macos-aarch64.pkg"
+  		pkg 'bellsoft-jdk16.0.2+7-macos-aarch64.pkg'
+	end
 
-  name 'BellSoft Liberica JDK 16'
-  homepage 'https://bell-sw.com'
+	name 'BellSoft Liberica JDK 16'
+	homepage 'https://bell-sw.com'
 
-  uninstall pkgutil: 'com.bell-sw.liberica.jdk16'
+	uninstall pkgutil: 'com.bell-sw.liberica.jdk16'
 
 end
 

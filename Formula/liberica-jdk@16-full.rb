@@ -1,9 +1,9 @@
 class LibericaJdkAT16Full < Formula
   desc "100% open-source Java implementation"
   homepage "https://bell-sw.com/"
-  url "https://download.bell-sw.com/java/16.0.1%2B9/bellsoft-jdk16.0.1%2B9-linux-amd64-full.tar.gz"
-  version "16.0.1.9"
-  sha256 "1db7b76a1f15014e0a051c49b6e53b235ce02daa0a63a0223bedc59f0bc2d2ae"
+  url "https://download.bell-sw.com/java/16.0.2%2B7/bellsoft-jdk16.0.2%2B7-linux-amd64-full.tar.gz"
+  version "16.0.2.7"
+  sha256 "8dc89b42e97d8627d41dd2d7961aeb7a026ae619aeee3c7738f97dc30430a6a5"
 
   depends_on :linux
 
