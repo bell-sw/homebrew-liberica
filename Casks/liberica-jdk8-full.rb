@@ -1,23 +1,23 @@
 cask 'liberica-jdk8-full' do
-  desc "100% open-source Java implementation"
-  version '1.8.0,292'
+	desc "100% open-source Java implementation"
+	version '1.8.0,302'
 
-  if Hardware::CPU.intel?
-    sha256 '3bf07a637f0971c17f318245f7953bc4c6aa8f8a8dcd136ea40d22340acfb3c6'
+	if Hardware::CPU.intel?
+		sha256 'ccb2f1e8f5d43f2f732ce0b5f27bbe42a21ae89c157b00364b0ca6f88a7fe6a4'
 
-    url "https://download.bell-sw.com/java/8u292%2B10/bellsoft-jdk8u292%2B10-macos-amd64-full.pkg"
-    pkg 'bellsoft-jdk8u292+10-macos-amd64-full.pkg'
-  else
-    sha256 'e88106a94e67c9b17c6d378016ba262381f4ff3039fa94216ee5209220f40df4'
+		url "https://download.bell-sw.com/java/8u302%2B8/bellsoft-jdk8u302%2B8-macos-amd64-full.pkg"
+  		pkg 'bellsoft-jdk8u302+8-macos-amd64-full.pkg'
+	else
+		sha256 '7492b1884fe42598c0786e9110ec2a6e681f237d765ad954d9a33838aeeb8ce7'
 
-    url "https://download.bell-sw.com/java/8u292%2B11/bellsoft-jdk8u292%2B11-macos-aarch64-full.pkg"
-    pkg 'bellsoft-jdk8u292+11-macos-aarch64-full.pkg'
-  end
+		url "https://download.bell-sw.com/java/8u302%2B8/bellsoft-jdk8u302%2B8-macos-aarch64-full.pkg"
+  		pkg 'bellsoft-jdk8u302+8-macos-aarch64-full.pkg'
+	end
 
-  name 'BellSoft Liberica JDK 8'
-  homepage 'https://bell-sw.com'
+	name 'BellSoft Liberica JDK 8'
+	homepage 'https://bell-sw.com'
 
-  uninstall pkgutil: 'com.bell-sw.liberica.jdk8-full'
+	uninstall pkgutil: 'com.bell-sw.liberica.jdk8-full'
 
 end
 
