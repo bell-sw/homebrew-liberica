@@ -18,6 +18,11 @@ List of available packages:
 
 | Package | Version | Actual version |
 | ------- | ------- | -------------- |
+| liberica-jdk17 | Liberica JDK 17 | 17+35 |
+| liberica-jdk17-lite | Liberica JDK 17 Lite version | 17+35 |
+| liberica-jdk17-full | Liberica JDK 17 Full version | 17+35 |
+| liberica-jre17 | Liberica JRE 17 | 17+35 |
+| liberica-jre17-full | Liberica JRE 17 Full version | 17+35 |
 | liberica-jdk16 | Liberica JDK 16 | 16.0.2 |
 | liberica-jdk16-lite | Liberica JDK 16 Lite version | 16.0.2 |
 | liberica-jdk16-full | Liberica JDK 16 Full version | 16.0.2 |
@@ -63,6 +68,9 @@ List of available packages:
 
 | Package | Version | Actual version |
 | ------- | ------- | -------------- |
+| liberica-jdk@17 | Liberica JDK 17 | 17+35 |
+| liberica-jdk@17-lite | Liberica JDK 17 Lite Version | 17+35 |
+| liberica-jdk@17-full | Liberica JDK 17 Full Version | 17+35 |
 | liberica-jdk@16 | Liberica JDK 16 | 16.0.2 |
 | liberica-jdk@16-lite | Liberica JDK 16 Lite Version | 16.0.2 |
 | liberica-jdk@16-full | Liberica JDK 16 Full Version | 16.0.2 |
