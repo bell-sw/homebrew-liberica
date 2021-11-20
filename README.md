@@ -11,7 +11,7 @@ To install Liberica JDK package run the following commands:
 
 ```shell
 brew tap bell-sw/liberica
-brew --cask install <package>
+brew install --cask <package>
 ```
 
 List of available packages:
