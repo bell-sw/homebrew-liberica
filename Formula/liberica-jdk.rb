@@ -1,9 +1,9 @@
 class LibericaJdk < Formula
   desc "100% open-source Java implementation"
   homepage "https://bell-sw.com/"
-  url "https://download.bell-sw.com/java/8u312%2B7/bellsoft-jdk8u312%2B7-linux-amd64.tar.gz"
-  version "1.8.0.312"
-  sha256 "8fdcc27ff96a6653912955d529bdda735c93450a3525ce019e549116f5a17919"
+  url "https://download.bell-sw.com/java/8u322%2B6/bellsoft-jdk8u322%2B6-linux-amd64.tar.gz"
+  version "1.8.0.322"
+  sha256 "adc0e981e57e5e92bd7e3a61003809733cf6ca78fbd2611e345c3ab8352db643"
 
   depends_on :linux
 
