@@ -11,18 +11,18 @@ To install Liberica JDK package run the following commands:
 
 ```shell
 brew tap bell-sw/liberica
-brew install --cask <package>
+brew --cask install <package>
 ```
 
 List of available packages:
 
 | Package | Version | Actual version |
 | ------- | ------- | -------------- |
-| liberica-jdk17 | Liberica JDK 17 | 17.0.1 |
-| liberica-jdk17-lite | Liberica JDK 17 Lite version | 17.0.1 |
-| liberica-jdk17-full | Liberica JDK 17 Full version | 17.0.1 |
-| liberica-jre17 | Liberica JRE 17 | 17.0.1 |
-| liberica-jre17-full | Liberica JRE 17 Full version | 17.0.1 |
+| liberica-jdk17 | Liberica JDK 17 | 17.0.2 |
+| liberica-jdk17-lite | Liberica JDK 17 Lite version | 17.0.2 |
+| liberica-jdk17-full | Liberica JDK 17 Full version | 17.0.2 |
+| liberica-jre17 | Liberica JRE 17 | 17.0.2 |
+| liberica-jre17-full | Liberica JRE 17 Full version | 17.0.2 |
 | liberica-jdk16 | Liberica JDK 16 | 16.0.2 |
 | liberica-jdk16-lite | Liberica JDK 16 Lite version | 16.0.2 |
 | liberica-jdk16-full | Liberica JDK 16 Full version | 16.0.2 |
@@ -45,15 +45,15 @@ List of available packages:
 | liberica-jre13-full | Liberica JRE 13 Full version | 13.0.2 |
 | liberica-jdk12 | Liberica JDK 12 | 12.0.2 |
 | liberica-jdk12-lite | Liberica JDK 12 lite version | 12.0.2 |
-| liberica-jdk11 | Liberica JDK 11 | 11.0.13 |
-| liberica-jdk11-lite | Liberica JDK 11 Lite version | 11.0.13 |
-| liberica-jdk11-full | Liberica JDK 11 Full version | 11.0.13 |
-| liberica-jre11 | Liberica JRE 11 | 11.0.13 |
-| liberica-jre11-full | Liberica JRE 11 Full version | 11.0.13 |
-| liberica-jdk8 | Liberica JDK 8 | 1.8.0_312 |
-| liberica-jdk8-full | Liberica JDK 8 Full version | 1.8.0_312 |
-| liberica-jre8 | Liberica JRE 8 | 1.8.0_312 |
-| liberica-jre8-full | Liberica JRE 8 Full version | 1.8.0_312 |
+| liberica-jdk11 | Liberica JDK 11 | 11.0.14 |
+| liberica-jdk11-lite | Liberica JDK 11 Lite version | 11.0.14 |
+| liberica-jdk11-full | Liberica JDK 11 Full version | 11.0.14 |
+| liberica-jre11 | Liberica JRE 11 | 11.0.14 |
+| liberica-jre11-full | Liberica JRE 11 Full version | 11.0.14 |
+| liberica-jdk8 | Liberica JDK 8 | 1.8.0_322 |
+| liberica-jdk8-full | Liberica JDK 8 Full version | 1.8.0_322 |
+| liberica-jre8 | Liberica JRE 8 | 1.8.0_322 |
+| liberica-jre8-full | Liberica JRE 8 Full version | 1.8.0_322 |
 
 ## Linuxbrew
 
@@ -68,9 +68,9 @@ List of available packages:
 
 | Package | Version | Actual version |
 | ------- | ------- | -------------- |
-| liberica-jdk@17 | Liberica JDK 17 | 17.0.1 |
-| liberica-jdk@17-lite | Liberica JDK 17 Lite Version | 17.0.1 |
-| liberica-jdk@17-full | Liberica JDK 17 Full Version | 17.0.1 |
+| liberica-jdk@17 | Liberica JDK 17 | 17.0.2 |
+| liberica-jdk@17-lite | Liberica JDK 17 Lite Version | 17.0.2 |
+| liberica-jdk@17-full | Liberica JDK 17 Full Version | 17.0.2 |
 | liberica-jdk@16 | Liberica JDK 16 | 16.0.2 |
 | liberica-jdk@16-lite | Liberica JDK 16 Lite Version | 16.0.2 |
 | liberica-jdk@16-full | Liberica JDK 16 Full Version | 16.0.2 |
@@ -84,9 +84,9 @@ List of available packages:
 | liberica-jdk@13-lite | Liberica JDK 13 Lite version | 13.0.2 |
 | liberica-jdk@13-full | Liberica JDK 13 Full version | 13.0.2 |
 | liberica-jdk@12 | Liberica JDK 12 | 12.0.2 |
-| liberica-jdk@11 | Liberica JDK 11 | 11.0.13 |
-| liberica-jdk@11-lite | Liberica JDK 11 Lite version | 11.0.13 |
-| liberica-jdk@11-full | Liberica JDK 11 Full version | 11.0.13 |
-| liberica-jdk, liberica-jdk@8 | Liberica JDK 8 | 1.8.0_312 |
+| liberica-jdk@11 | Liberica JDK 11 | 11.0.14 |
+| liberica-jdk@11-lite | Liberica JDK 11 Lite version | 11.0.14 |
+| liberica-jdk@11-full | Liberica JDK 11 Full version | 11.0.14 |
+| liberica-jdk, liberica-jdk@8 | Liberica JDK 8 | 1.8.0_322 |
 
 For more detailed information please visit [BellSoft site](https://bell-sw.com) 

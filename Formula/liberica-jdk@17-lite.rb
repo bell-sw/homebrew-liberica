@@ -1,9 +1,9 @@
 class LibericaJdkAT17Lite < Formula
   desc "100% open-source Java implementation"
   homepage "https://bell-sw.com/"
-  url "https://download.bell-sw.com/java/17.0.1%2B12/bellsoft-jdk17.0.1%2B12-linux-amd64-lite.tar.gz"
-  version "17.0.1.12"
-  sha256 "35dbb6efad680483fe4a77e7b5953c83a768a66164b35774e5266255391d0dd2"
+  url "https://download.bell-sw.com/java/17.0.2%2B9/bellsoft-jdk17.0.2%2B9-linux-amd64-lite.tar.gz"
+  version "17.0.2.9"
+  sha256 "85691a29dc4eed90dbaf7d1b7dcea8b124fd85f00cd3b879db28beacf565c223"
 
   depends_on :linux
 
