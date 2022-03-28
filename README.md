@@ -18,6 +18,7 @@ List of available packages:
 
 | Package | Version | Actual version |
 | ------- | ------- | -------------- |
+| liberica-jdk18 | Liberica JDK 18 | 18+37 |
 | liberica-jdk17 | Liberica JDK 17 | 17.0.2 |
 | liberica-jdk17-lite | Liberica JDK 17 Lite version | 17.0.2 |
 | liberica-jdk17-full | Liberica JDK 17 Full version | 17.0.2 |
@@ -68,6 +69,7 @@ List of available packages:
 
 | Package | Version | Actual version |
 | ------- | ------- | -------------- |
+| liberica-jdk@18 | Liberica JDK 18 | 18+37 |
 | liberica-jdk@17 | Liberica JDK 17 | 17.0.2 |
 | liberica-jdk@17-lite | Liberica JDK 17 Lite Version | 17.0.2 |
 | liberica-jdk@17-full | Liberica JDK 17 Full Version | 17.0.2 |
