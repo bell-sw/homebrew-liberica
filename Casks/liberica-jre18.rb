@@ -1,17 +1,17 @@
 cask 'liberica-jre18' do
 	desc "100% open-source Java implementation"
-	version '18,37'
+	version '18.0.1,12'
 
 	if Hardware::CPU.intel?
-		sha256 '0fb8762c5a180ae4fbdda5f20a78efd1521e770321205586c3eeebf334dfe846'
+		sha256 '774760002434af1d159b56488e1ae34e95cbf93cedbb7cdeecd77125ec62f99d'
 
-		url "https://download.bell-sw.com/java/18%2B37/bellsoft-jre18%2B37-macos-amd64.pkg"
-  		pkg 'bellsoft-jre18+37-macos-amd64.pkg'
+		url "https://download.bell-sw.com/java/18.0.1%2B12/bellsoft-jre18.0.1%2B12-macos-amd64.pkg"
+  		pkg 'bellsoft-jre18.0.1+12-macos-amd64.pkg'
 	else
-		sha256 '9da8f7b3ca792344eb827b87a44807c207f192967afd77f45a3e77b345f62190'
+		sha256 '8541476df8ca85d0c5c1af2b1506591477e3df952c2b840f0698554246752b1b'
 
-		url "https://download.bell-sw.com/java/18%2B37/bellsoft-jre18%2B37-macos-aarch64.pkg"
-  		pkg 'bellsoft-jre18+37-macos-aarch64.pkg'
+		url "https://download.bell-sw.com/java/18.0.1%2B12/bellsoft-jre18.0.1%2B12-macos-aarch64.pkg"
+  		pkg 'bellsoft-jre18.0.1+12-macos-aarch64.pkg'
 	end
 
 	name 'BellSoft Liberica JRE 18'
