@@ -1,9 +1,9 @@
 class LibericaJdkAT18 < Formula
   desc "100% open-source Java implementation"
   homepage "https://bell-sw.com/"
-  url "https://download.bell-sw.com/java/18.0.2%2B10/bellsoft-jdk18.0.2%2B10-linux-amd64.tar.gz"
-  version "18.0.2.10"
-  sha256 "73c602ff0790a4ab325db06cae45f488f7e3613d781d688a204efa6325cebdd0"
+  url "https://download.bell-sw.com/java/18.0.2.1%2B1/bellsoft-jdk18.0.2.1%2B1-linux-amd64.tar.gz"
+  version "18.0.2.1.1"
+  sha256 "21a18375ab2692b0c5b563e25bc7f58b625705aff5a32e7595bbed27f00772cc"
 
   depends_on :linux
 
