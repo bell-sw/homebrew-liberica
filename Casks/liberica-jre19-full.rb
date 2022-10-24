@@ -1,17 +1,17 @@
 cask 'liberica-jre19-full' do
 	desc "100% open-source Java implementation"
-	version '19,37'
+	version '19.0.1,11'
 
 	if Hardware::CPU.intel?
-		sha256 'f13fc0a0314f8cbc9821a93af4e6731dc7603d5d1fba90230cea6444c08efdb6'
+		sha256 'e43b0dff43f5ad0edec2edc2a4df25c945e9b86607f635b4ac95b327edc7b5aa'
 
-		url "https://download.bell-sw.com/java/19%2B37/bellsoft-jre19%2B37-macos-amd64-full.pkg"
-  		pkg 'bellsoft-jre19+37-macos-amd64-full.pkg'
+		url "https://download.bell-sw.com/java/19.0.1%2B11/bellsoft-jre19.0.1%2B11-macos-amd64-full.pkg"
+  		pkg 'bellsoft-jre19.0.1+11-macos-amd64-full.pkg'
 	else
-		sha256 '3f1b44afcbe6a89cb539cb6902ae3fdf0e0294797639cd7f6192447ae97fa0af'
+		sha256 '27c82b7a4b44af1fc103f74b86103749bd3aa398c8a38e3e53f4c758870cc289'
 
-		url "https://download.bell-sw.com/java/19%2B37/bellsoft-jre19%2B37-macos-aarch64-full.pkg"
-  		pkg 'bellsoft-jre19+37-macos-aarch64-full.pkg'
+		url "https://download.bell-sw.com/java/19.0.1%2B11/bellsoft-jre19.0.1%2B11-macos-aarch64-full.pkg"
+  		pkg 'bellsoft-jre19.0.1+11-macos-aarch64-full.pkg'
 	end
 
 	name 'BellSoft Liberica JRE 19'
