@@ -1,9 +1,9 @@
 class LibericaJdkAT19 < Formula
   desc "100% open-source Java implementation"
   homepage "https://bell-sw.com/"
-  url "https://download.bell-sw.com/java/19%2B37/bellsoft-jdk19%2B37-linux-amd64.tar.gz"
-  version "19.37"
-  sha256 "b7b4b42c4acc050dbf0e0169c19d7d229e999f8f1676dff2f4a5ba63c701b220"
+  url "https://download.bell-sw.com/java/19.0.1%2B11/bellsoft-jdk19.0.1%2B11-linux-amd64.tar.gz"
+  version "19.0.1.11"
+  sha256 "bbd7b92e5754bef8c7eca585cdce52e6edf015bb7e1c0bfe1bdd9d1837529cb7"
 
   depends_on :linux
 
