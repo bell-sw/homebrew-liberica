@@ -1,17 +1,17 @@
 cask 'liberica-jdk19' do
 	desc "100% open-source Java implementation"
-	version '19.0.1,11'
+	version '19.0.2,9'
 
 	if Hardware::CPU.intel?
-		sha256 '578e2b95aba2873882088b9d59dc3500065a95b7ed3a9eeeebc1770909ad16e4'
+		sha256 '8d31ecd0bfc63e874c96d5aff367fe30892087d3c3856da68382215c02f35a5e'
 
-		url "https://download.bell-sw.com/java/19.0.1%2B11/bellsoft-jdk19.0.1%2B11-macos-amd64.pkg"
-  		pkg 'bellsoft-jdk19.0.1+11-macos-amd64.pkg'
+		url "https://download.bell-sw.com/java/19.0.2%2B9/bellsoft-jdk19.0.2%2B9-macos-amd64.pkg"
+  		pkg 'bellsoft-jdk19.0.2+9-macos-amd64.pkg'
 	else
-		sha256 'd3962afdd7044bca028ce3bf51df3b6a1c262655a8c70c66efd29b2e1151a37f'
+		sha256 'c60d15ac94fd74b3d787f6b53de2128cbd6b05f95e835a18075ee52b32660faa'
 
-		url "https://download.bell-sw.com/java/19.0.1%2B11/bellsoft-jdk19.0.1%2B11-macos-aarch64.pkg"
-  		pkg 'bellsoft-jdk19.0.1+11-macos-aarch64.pkg'
+		url "https://download.bell-sw.com/java/19.0.2%2B9/bellsoft-jdk19.0.2%2B9-macos-aarch64.pkg"
+  		pkg 'bellsoft-jdk19.0.2+9-macos-aarch64.pkg'
 	end
 
 	name 'BellSoft Liberica JDK 19'
