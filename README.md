@@ -18,17 +18,19 @@ List of available packages:
 
 | Package | Version | Actual version |
 | ------- | ------- | -------------- |
-| liberica-jdk19 | Liberica JDK 19 | 19.0.1 |
+| liberica-jdk19 | Liberica JDK 19 | 19.0.2 |
+| liberica-jdk19-lite | Liberica JDK 19 Lite version | 19.0.2 |
+| liberica-jdk19-full | Liberica JDK 19 Full version | 19.0.2 |
 | liberica-jdk18 | Liberica JDK 18 | 18.0.2.1 |
 | liberica-jdk18-lite | Liberica JDK 18 Lite version | 18.0.2.1 |
 | liberica-jdk18-full | Liberica JDK 18 Full version | 18.0.2.1 |
 | liberica-jre18 | Liberica JRE 18 | 18.0.2.1 |
 | liberica-jre18-full | Liberica JRE 18 Full version | 18.0.2.1 |
-| liberica-jdk17 | Liberica JDK 17 | 17.0.5 |
-| liberica-jdk17-lite | Liberica JDK 17 Lite version | 17.0.5 |
-| liberica-jdk17-full | Liberica JDK 17 Full version | 17.0.5 |
-| liberica-jre17 | Liberica JRE 17 | 17.0.5 |
-| liberica-jre17-full | Liberica JRE 17 Full version | 17.0.5 |
+| liberica-jdk17 | Liberica JDK 17 | 17.0.6 |
+| liberica-jdk17-lite | Liberica JDK 17 Lite version | 17.0.6 |
+| liberica-jdk17-full | Liberica JDK 17 Full version | 17.0.6 |
+| liberica-jre17 | Liberica JRE 17 | 17.0.6 |
+| liberica-jre17-full | Liberica JRE 17 Full version | 17.0.6 |
 | liberica-jdk16 | Liberica JDK 16 | 16.0.2 |
 | liberica-jdk16-lite | Liberica JDK 16 Lite version | 16.0.2 |
 | liberica-jdk16-full | Liberica JDK 16 Full version | 16.0.2 |
@@ -51,15 +53,15 @@ List of available packages:
 | liberica-jre13-full | Liberica JRE 13 Full version | 13.0.2 |
 | liberica-jdk12 | Liberica JDK 12 | 12.0.2 |
 | liberica-jdk12-lite | Liberica JDK 12 lite version | 12.0.2 |
-| liberica-jdk11 | Liberica JDK 11 | 11.0.17 |
-| liberica-jdk11-lite | Liberica JDK 11 Lite version | 11.0.17 |
-| liberica-jdk11-full | Liberica JDK 11 Full version | 11.0.17 |
-| liberica-jre11 | Liberica JRE 11 | 11.0.17 |
-| liberica-jre11-full | Liberica JRE 11 Full version | 11.0.17 |
-| liberica-jdk8 | Liberica JDK 8 | 1.8.0_352 |
-| liberica-jdk8-full | Liberica JDK 8 Full version | 1.8.0_352 |
-| liberica-jre8 | Liberica JRE 8 | 1.8.0_352 |
-| liberica-jre8-full | Liberica JRE 8 Full version | 1.8.0_352 |
+| liberica-jdk11 | Liberica JDK 11 | 11.0.18 |
+| liberica-jdk11-lite | Liberica JDK 11 Lite version | 11.0.18 |
+| liberica-jdk11-full | Liberica JDK 11 Full version | 11.0.18 |
+| liberica-jre11 | Liberica JRE 11 | 11.0.18 |
+| liberica-jre11-full | Liberica JRE 11 Full version | 11.0.18 |
+| liberica-jdk8 | Liberica JDK 8 | 1.8.0_362 |
+| liberica-jdk8-full | Liberica JDK 8 Full version | 1.8.0_362 |
+| liberica-jre8 | Liberica JRE 8 | 1.8.0_362 |
+| liberica-jre8-full | Liberica JRE 8 Full version | 1.8.0_362 |
 
 ## Linuxbrew
 
@@ -74,13 +76,15 @@ List of available packages:
 
 | Package | Version | Actual version |
 | ------- | ------- | -------------- |
-| liberica-jdk19 | Liberica JDK 19 | 19.0.1 |
+| liberica-jdk19 | Liberica JDK 19 | 19.0.2 |
+| liberica-jdk@19-lite | Liberica JDK 19 Lite Version | 19.0.2 |
+| liberica-jdk@19-full | Liberica JDK 19 Full Version | 19.0.2 |
 | liberica-jdk@18 | Liberica JDK 18 | 18.0.2.1 |
 | liberica-jdk@18-lite | Liberica JDK 18 Lite Version | 18.0.2.1 |
 | liberica-jdk@18-full | Liberica JDK 18 Full Version | 18.0.2.1 |
-| liberica-jdk@17 | Liberica JDK 17 | 17.0.5 |
-| liberica-jdk@17-lite | Liberica JDK 17 Lite Version | 17.0.5 |
-| liberica-jdk@17-full | Liberica JDK 17 Full Version | 17.0.5 |
+| liberica-jdk@17 | Liberica JDK 17 | 17.0.6 |
+| liberica-jdk@17-lite | Liberica JDK 17 Lite Version | 17.0.6 |
+| liberica-jdk@17-full | Liberica JDK 17 Full Version | 17.0.6 |
 | liberica-jdk@16 | Liberica JDK 16 | 16.0.2 |
 | liberica-jdk@16-lite | Liberica JDK 16 Lite Version | 16.0.2 |
 | liberica-jdk@16-full | Liberica JDK 16 Full Version | 16.0.2 |
@@ -94,9 +98,9 @@ List of available packages:
 | liberica-jdk@13-lite | Liberica JDK 13 Lite version | 13.0.2 |
 | liberica-jdk@13-full | Liberica JDK 13 Full version | 13.0.2 |
 | liberica-jdk@12 | Liberica JDK 12 | 12.0.2 |
-| liberica-jdk@11 | Liberica JDK 11 | 11.0.17 |
-| liberica-jdk@11-lite | Liberica JDK 11 Lite version | 11.0.17 |
-| liberica-jdk@11-full | Liberica JDK 11 Full version | 11.0.17 |
-| liberica-jdk, liberica-jdk@8 | Liberica JDK 8 | 1.8.0_352 |
+| liberica-jdk@11 | Liberica JDK 11 | 11.0.18 |
+| liberica-jdk@11-lite | Liberica JDK 11 Lite version | 11.0.18 |
+| liberica-jdk@11-full | Liberica JDK 11 Full version | 11.0.18 |
+| liberica-jdk, liberica-jdk@8 | Liberica JDK 8 | 1.8.0_362 |
 
 For more detailed information please visit [BellSoft site](https://bell-sw.com) 
