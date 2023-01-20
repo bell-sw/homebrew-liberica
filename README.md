@@ -18,7 +18,9 @@ List of available packages:
 
 | Package | Version | Actual version |
 | ------- | ------- | -------------- |
-| liberica-jdk18 | Liberica JDK 18 | 19.0.2 |
+| liberica-jdk19 | Liberica JDK 19 | 19.0.2 |
+| liberica-jdk19-lite | Liberica JDK 19 Lite version | 19.0.2 |
+| liberica-jdk19-full | Liberica JDK 19 Full version | 19.0.2 |
 | liberica-jdk18 | Liberica JDK 18 | 18.0.2.1 |
 | liberica-jdk18-lite | Liberica JDK 18 Lite version | 18.0.2.1 |
 | liberica-jdk18-full | Liberica JDK 18 Full version | 18.0.2.1 |
@@ -74,7 +76,9 @@ List of available packages:
 
 | Package | Version | Actual version |
 | ------- | ------- | -------------- |
-| liberica-jdk18 | Liberica JDK 18 | 19.0.2 |
+| liberica-jdk19 | Liberica JDK 19 | 19.0.2 |
+| liberica-jdk@19-lite | Liberica JDK 19 Lite Version | 19.0.2 |
+| liberica-jdk@19-full | Liberica JDK 19 Full Version | 19.0.2 |
 | liberica-jdk@18 | Liberica JDK 18 | 18.0.2.1 |
 | liberica-jdk@18-lite | Liberica JDK 18 Lite Version | 18.0.2.1 |
 | liberica-jdk@18-full | Liberica JDK 18 Full Version | 18.0.2.1 |
