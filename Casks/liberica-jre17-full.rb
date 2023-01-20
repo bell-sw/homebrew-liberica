@@ -8,7 +8,7 @@ cask 'liberica-jre17-full' do
 		url "https://download.bell-sw.com/java/17.0.6%2B10/bellsoft-jre17.0.6%2B10-macos-amd64-full.pkg"
   		pkg 'bellsoft-jre17.0.6+10-macos-amd64-full.pkg'
 	else
-		sha256 '23939b4353355556bcc20d841fad424545ef257a71b29253073d1910b140c7f5'
+		sha256 '062855d55608daba43fd67f43de06a4a0fa7425da0403fe8981c2cfb134e728e'
 
 		url "https://download.bell-sw.com/java/17.0.6%2B10/bellsoft-jre17.0.6%2B10-macos-aarch64-full.pkg"
   		pkg 'bellsoft-jre17.0.6+10-macos-aarch64-full.pkg'

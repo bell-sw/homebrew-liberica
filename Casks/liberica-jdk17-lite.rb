@@ -8,7 +8,7 @@ cask 'liberica-jdk17-lite' do
 		url "https://download.bell-sw.com/java/17.0.6%2B10/bellsoft-jdk17.0.6%2B10-macos-amd64-lite.pkg"
   		pkg 'bellsoft-jdk17.0.6+10-macos-amd64-lite.pkg'
 	else
-		sha256 '8956df9514b21577b8783a9ce634041f0087ea1890901802a15434db34c8ea35'
+		sha256 'ddff33d9a180c5c9e3c60280c4995c17de9f3059de853996cab73bd8b0bb7f48'
 
 		url "https://download.bell-sw.com/java/17.0.6%2B10/bellsoft-jdk17.0.6%2B10-macos-aarch64-lite.pkg"
   		pkg 'bellsoft-jdk17.0.6+10-macos-aarch64-lite.pkg'

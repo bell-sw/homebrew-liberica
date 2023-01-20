@@ -8,7 +8,7 @@ cask 'liberica-jre11' do
 		url "https://download.bell-sw.com/java/11.0.18%2B10/bellsoft-jre11.0.18%2B10-macos-amd64.pkg"
   		pkg 'bellsoft-jre11.0.18+10-macos-amd64.pkg'
 	else
-		sha256 'c1df4cb5413776ee342188e02deec3361c0706727a6e6bf6c9e7ae29452d59d7'
+		sha256 'a7c6c2c7f8628f322c117021e5b2381ef645656f934f4008248a0cdbd233e800'
 
 		url "https://download.bell-sw.com/java/11.0.18%2B10/bellsoft-jre11.0.18%2B10-macos-aarch64.pkg"
   		pkg 'bellsoft-jre11.0.18+10-macos-aarch64.pkg'
