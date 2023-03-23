@@ -18,9 +18,16 @@ List of available packages:
 
 | Package | Version | Actual version |
 | ------- | ------- | -------------- |
+| liberica-jdk20 | Liberica JDK 20 | 20+37 |
+| liberica-jdk20-lite | Liberica JDK 20 Lite version | 20+37 |
+| liberica-jdk20-full | Liberica JDK 20 Full version | 20+37 |
+| liberica-jre20 | Liberica JRE 20 | 20+37 |
+| liberica-jre20-full | Liberica JRE 20 Full version | 20+37 |
 | liberica-jdk19 | Liberica JDK 19 | 19.0.2 |
 | liberica-jdk19-lite | Liberica JDK 19 Lite version | 19.0.2 |
 | liberica-jdk19-full | Liberica JDK 19 Full version | 19.0.2 |
+| liberica-jre19 | Liberica JRE 19 | 19.0.2 |
+| liberica-jre19-full | Liberica JRE 19 Full version | 19.0.2 |
 | liberica-jdk18 | Liberica JDK 18 | 18.0.2.1 |
 | liberica-jdk18-lite | Liberica JDK 18 Lite version | 18.0.2.1 |
 | liberica-jdk18-full | Liberica JDK 18 Full version | 18.0.2.1 |
@@ -76,6 +83,9 @@ List of available packages:
 
 | Package | Version | Actual version |
 | ------- | ------- | -------------- |
+| liberica-jdk@20 | Liberica JDK 20 | 20+37 |
+| liberica-jdk@20-lite | Liberica JDK 20 Lite Version | 20+37 |
+| liberica-jdk@20-full | Liberica JDK 20 Full Version | 20+37 |
 | liberica-jdk19 | Liberica JDK 19 | 19.0.2 |
 | liberica-jdk@19-lite | Liberica JDK 19 Lite Version | 19.0.2 |
 | liberica-jdk@19-full | Liberica JDK 19 Full Version | 19.0.2 |
