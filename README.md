@@ -11,7 +11,7 @@ To install Liberica JDK package run the following commands:
 
 ```shell
 brew tap bell-sw/liberica
-brew --cask install <package>
+brew install --cask <package>
 ```
 
 List of available packages:
@@ -86,9 +86,9 @@ List of available packages:
 | liberica-jdk@20 | Liberica JDK 20 | 20+37 |
 | liberica-jdk@20-lite | Liberica JDK 20 Lite Version | 20+37 |
 | liberica-jdk@20-full | Liberica JDK 20 Full Version | 20+37 |
-| liberica-jdk@19 | Liberica JDK 19 | 19.0.2 |
-| liberica-jdk@18-lite | Liberica JDK 19 Lite Version | 19.0.2 |
-| liberica-jdk@18-full | Liberica JDK 19 Full Version | 19.0.2 |
+| liberica-jdk19 | Liberica JDK 19 | 19.0.2 |
+| liberica-jdk@19-lite | Liberica JDK 19 Lite Version | 19.0.2 |
+| liberica-jdk@19-full | Liberica JDK 19 Full Version | 19.0.2 |
 | liberica-jdk@18 | Liberica JDK 18 | 18.0.2.1 |
 | liberica-jdk@18-lite | Liberica JDK 18 Lite Version | 18.0.2.1 |
 | liberica-jdk@18-full | Liberica JDK 18 Full Version | 18.0.2.1 |
