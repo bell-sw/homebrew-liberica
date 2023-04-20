@@ -1,9 +1,9 @@
 class LibericaJdkAT20Full < Formula
   desc "100% open-source Java implementation"
   homepage "https://bell-sw.com/"
-  url "https://download.bell-sw.com/java/20%2B37/bellsoft-jdk20%2B37-linux-amd64-full.tar.gz"
-  version "20.37"
-  sha256 "965dfd79ad320afff0bbe9952e1acb6c828e630ae25019fb32476c448c5cf298"
+  url "https://download.bell-sw.com/java/20.0.1%2B10/bellsoft-jdk20.0.1%2B10-linux-amd64-full.tar.gz"
+  version "20.0.1.10"
+  sha256 "512072cc34fc026ac4e0e087263f4b682c647088003ae2e5d736c718e7a7346b"
 
   depends_on :linux
 
