@@ -1,17 +1,17 @@
 cask 'liberica-jdk11-full' do
 	desc "100% open-source Java implementation"
-	version '11.0.18,10'
+	version '11.0.19,7'
 
 	if Hardware::CPU.intel?
-		sha256 'c2e25a72844dc12d1b3451340e3510eea2c33e431633b6efa22377b39eb240a4'
+		sha256 'bfe917e526102a12649f45ca59b364cee829d17c3bef286de500f13b68b50044'
 
-		url "https://download.bell-sw.com/java/11.0.18%2B10/bellsoft-jdk11.0.18%2B10-macos-amd64-full.pkg"
-  		pkg 'bellsoft-jdk11.0.18+10-macos-amd64-full.pkg'
+		url "https://download.bell-sw.com/java/11.0.19%2B7/bellsoft-jdk11.0.19%2B7-macos-amd64-full.pkg"
+  		pkg 'bellsoft-jdk11.0.19+7-macos-amd64-full.pkg'
 	else
-		sha256 'd3c6eda325fdb3da6dafba914560f2802c89fd52508e3adf9f0a7edf55d41fac'
+		sha256 '20e05367e596b5a6f4874dc51417e126d626e5547b450bd293447d3d536fa122'
 
-		url "https://download.bell-sw.com/java/11.0.18%2B10/bellsoft-jdk11.0.18%2B10-macos-aarch64-full.pkg"
-  		pkg 'bellsoft-jdk11.0.18+10-macos-aarch64-full.pkg'
+		url "https://download.bell-sw.com/java/11.0.19%2B7/bellsoft-jdk11.0.19%2B7-macos-aarch64-full.pkg"
+  		pkg 'bellsoft-jdk11.0.19+7-macos-aarch64-full.pkg'
 	end
 
 	name 'BellSoft Liberica JDK 11'
