@@ -1,9 +1,9 @@
 class LibericaJdkAT11Full < Formula
   desc "100% open-source Java implementation"
   homepage "https://bell-sw.com/"
-  url "https://download.bell-sw.com/java/11.0.18%2B10/bellsoft-jdk11.0.18%2B10-linux-amd64-full.tar.gz"
-  version "11.0.18.10"
-  sha256 "6b473db222e79eb8cbec1553a1ec7aa12eba81af28e0a2577e6550fb4246d394"
+  url "https://download.bell-sw.com/java/11.0.19%2B7/bellsoft-jdk11.0.19%2B7-linux-amd64-full.tar.gz"
+  version "11.0.19.7"
+  sha256 "bdea11a7029e5956e9f53ce2429c185c5657c1639c1555d48306fa0b20a20b58"
 
   depends_on :linux
 
