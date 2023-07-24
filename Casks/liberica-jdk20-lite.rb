@@ -1,17 +1,17 @@
 cask 'liberica-jdk20-lite' do
 	desc "100% open-source Java implementation"
-	version '20.0.1,10'
+	version '20.0.2,10'
 
 	if Hardware::CPU.intel?
-		sha256 '066812c801011571b4779a1c3aa0df1246ba9f25a0ebf310b0e9ab907072914f'
+		sha256 '14b4fb84181db58dcacad7a5cc851b28a8a3e5e9b6dc878b37e982b2f4b62ef3'
 
-		url "https://download.bell-sw.com/java/20.0.1%2B10/bellsoft-jdk20.0.1%2B10-macos-amd64-lite.pkg"
-  		pkg 'bellsoft-jdk20.0.1+10-macos-amd64-lite.pkg'
+		url "https://download.bell-sw.com/java/20.0.2%2B10/bellsoft-jdk20.0.2%2B10-macos-amd64-lite.pkg"
+  		pkg 'bellsoft-jdk20.0.2+10-macos-amd64-lite.pkg'
 	else
-		sha256 'afbbbdaccdd11d2f8a2bab7f5f6ba6c34097c35eefad44c918408a0ad0d6c6ec'
+		sha256 'd6e9bd5e55b6cb8d2aa42e97189a45a9d9f6a8778bac446519ffc84b377fb897'
 
-		url "https://download.bell-sw.com/java/20.0.1%2B10/bellsoft-jdk20.0.1%2B10-macos-aarch64-lite.pkg"
-  		pkg 'bellsoft-jdk20.0.1+10-macos-aarch64-lite.pkg'
+		url "https://download.bell-sw.com/java/20.0.2%2B10/bellsoft-jdk20.0.2%2B10-macos-aarch64-lite.pkg"
+  		pkg 'bellsoft-jdk20.0.2+10-macos-aarch64-lite.pkg'
 	end
 
 	name 'BellSoft Liberica JDK 20'
