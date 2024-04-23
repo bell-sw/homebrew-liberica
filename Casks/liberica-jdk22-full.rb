@@ -1,17 +1,17 @@
 cask 'liberica-jdk22-full' do
 	desc "100% open-source Java implementation"
-	version '22,37'
+	version '22.0.1,10'
 
 	if Hardware::CPU.intel?
-		sha256 '41d6e441e7f996f0bc82628fd8b2e3102887b934b2d84a975ead7de8e5b2c54f'
+		sha256 '852a7d7ed0393333addcfcaadd05dde63afec4237a87ffa6436f9bac1281e631'
 
-		url "https://download.bell-sw.com/java/22%2B37/bellsoft-jdk22%2B37-macos-amd64-full.pkg"
-  		pkg 'bellsoft-jdk22+37-macos-amd64-full.pkg'
+		url "https://download.bell-sw.com/java/22.0.1%2B10/bellsoft-jdk22.0.1%2B10-macos-amd64-full.pkg"
+  		pkg 'bellsoft-jdk22.0.1+10-macos-amd64-full.pkg'
 	else
-		sha256 'c222e76b3c4986414ea1b71a704b80e7650b12171f1e25072640f0cbbd34a48f'
+		sha256 'eab97450d2b20a348475cd34060985bc69f1c639427f8c197b3ed685894e563b'
 
-		url "https://download.bell-sw.com/java/22%2B37/bellsoft-jdk22%2B37-macos-aarch64-full.pkg"
-  		pkg 'bellsoft-jdk22+37-macos-aarch64-full.pkg'
+		url "https://download.bell-sw.com/java/22.0.1%2B10/bellsoft-jdk22.0.1%2B10-macos-aarch64-full.pkg"
+  		pkg 'bellsoft-jdk22.0.1+10-macos-aarch64-full.pkg'
 	end
 
 	name 'BellSoft Liberica JDK 22'
