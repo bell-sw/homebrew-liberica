@@ -1,17 +1,17 @@
 cask 'liberica-jre22' do
 	desc "100% open-source Java implementation"
-	version '22,37'
+	version '22.0.2,11'
 
 	if Hardware::CPU.intel?
-		sha256 '88eda95637b62eb7a8e43c3c574e4ffe6242794d04f5b2bd0c2c899e2f9e4017'
+		sha256 '03b22b27721747910f4ce9d9f08e38680236941d8978b6206549647df5bf7a31'
 
-		url "https://download.bell-sw.com/java/22%2B37/bellsoft-jre22%2B37-macos-amd64.pkg"
-  		pkg 'bellsoft-jre22+37-macos-amd64.pkg'
+		url "https://download.bell-sw.com/java/22.0.2%2B11/bellsoft-jre22.0.2%2B11-macos-amd64.pkg"
+  		pkg 'bellsoft-jre22.0.2+11-macos-amd64.pkg'
 	else
-		sha256 '5ef329b8f12e82c01fb15e7300013608714867ede1176753f3866f82621d1514'
+		sha256 '1192a8bcefcb309c36d0b50f308d9a0d1d9d8d7fd8a6628e1f7f9da27fe9c3b4'
 
-		url "https://download.bell-sw.com/java/22%2B37/bellsoft-jre22%2B37-macos-aarch64.pkg"
-  		pkg 'bellsoft-jre22+37-macos-aarch64.pkg'
+		url "https://download.bell-sw.com/java/22.0.2%2B11/bellsoft-jre22.0.2%2B11-macos-aarch64.pkg"
+  		pkg 'bellsoft-jre22.0.2+11-macos-aarch64.pkg'
 	end
 
 	name 'BellSoft Liberica JRE 22'
