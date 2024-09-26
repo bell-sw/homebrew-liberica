@@ -18,8 +18,13 @@ List of available packages:
 
 | Package | Version | Actual version |
 | ------- | ------- | -------------- |
+| liberica-jdk23 | Liberica JDK 23 | 23 |
+| liberica-jdk23-lite | Liberica JDK 23 Lite version | 23 |
+| liberica-jdk23-full | Liberica JDK 23 Full version | 23 |
+| liberica-jre23 | Liberica JRE 23 | 23 |
+| liberica-jre23-full | Liberica JRE 23 Full version | 23 |
 | liberica-jdk22 | Liberica JDK 22 | 22.0.2 |
-| liberica-jdk22-lite | Liberica JDK 21 Lite version | 22.0.2 |
+| liberica-jdk22-lite | Liberica JDK 22 Lite version | 22.0.2 |
 | liberica-jdk22-full | Liberica JDK 22 Full version | 22.0.2 |
 | liberica-jre22 | Liberica JRE 22 | 22 |
 | liberica-jre22-full | Liberica JRE 22 Full version | 22.0.2 |
@@ -93,6 +98,9 @@ List of available packages:
 
 | Package | Version | Actual version |
 | ------- | ------- | -------------- |
+| liberica-jdk@23 | Liberica JDK 23 | 23 |
+| liberica-jdk@23-lite | Liberica JDK 23 Lite Version | 23 |
+| liberica-jdk@23-full | Liberica JDK 23 Full Version | 23 |
 | liberica-jdk@22 | Liberica JDK 22 | 22.0.2 |
 | liberica-jdk@22-lite | Liberica JDK 22 Lite Version | 22.0.2 |
 | liberica-jdk@22-full | Liberica JDK 22 Full Version | 22.0.2 |
