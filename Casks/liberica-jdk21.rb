@@ -1,17 +1,17 @@
 cask 'liberica-jdk21' do
 	desc "100% open-source Java implementation"
-	version '21.0.4,9'
+	version '21.0.5,11'
 
 	if Hardware::CPU.intel?
-		sha256 '0920cbae51c14906a41a102c9381c66843df1b5fd71b4fb51818f8efd4eb7b3c'
+		sha256 'bb1c40f996c5d05095078c9e31362a39acc16bcbe0a33f34dfbf1231562688d2'
 
-		url "https://download.bell-sw.com/java/21.0.4%2B9/bellsoft-jdk21.0.4%2B9-macos-amd64.pkg"
-  		pkg 'bellsoft-jdk21.0.4+9-macos-amd64.pkg'
+		url "https://download.bell-sw.com/java/21.0.5%2B11/bellsoft-jdk21.0.5%2B11-macos-amd64.pkg"
+  		pkg 'bellsoft-jdk21.0.5+11-macos-amd64.pkg'
 	else
-		sha256 '98dd9866680ac1156cd62bdb6eb4d3e6384ad41584c9f431e6f82edf462161d6'
+		sha256 '6baa46561d80d3bb8c6bc69ba5f26327a429d4e3dbe31722c916ba0691c43dcc'
 
-		url "https://download.bell-sw.com/java/21.0.4%2B9/bellsoft-jdk21.0.4%2B9-macos-aarch64.pkg"
-  		pkg 'bellsoft-jdk21.0.4+9-macos-aarch64.pkg'
+		url "https://download.bell-sw.com/java/21.0.5%2B11/bellsoft-jdk21.0.5%2B11-macos-aarch64.pkg"
+  		pkg 'bellsoft-jdk21.0.5+11-macos-aarch64.pkg'
 	end
 
 	name 'BellSoft Liberica JDK 21'
