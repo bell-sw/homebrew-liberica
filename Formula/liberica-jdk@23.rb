@@ -1,9 +1,9 @@
 class LibericaJdkAT23 < Formula
   desc "100% open-source Java implementation"
   homepage "https://bell-sw.com/"
-  url "https://download.bell-sw.com/java/23.0.1%2B13/bellsoft-jdk23.0.1%2B13-linux-amd64.tar.gz"
-  version "23.0.1.13"
-  sha256 "0e4ea0b358229f1694484e39221bac510b6020ac8807c86529c5abf4be505e3d"
+  url "https://download.bell-sw.com/java/23.0.2%2B9/bellsoft-jdk23.0.2%2B9-linux-amd64.tar.gz"
+  version "23.0.2.9"
+  sha256 "ab9835b604b3951663584e89f8515e6563a9cbcf5a6b0fc83098874ff94d168f"
 
   depends_on :linux
 

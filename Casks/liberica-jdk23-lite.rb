@@ -1,17 +1,17 @@
 cask 'liberica-jdk23-lite' do
 	desc "100% open-source Java implementation"
-	version '23.0.1,13'
+	version '23.0.2,9'
 
 	if Hardware::CPU.intel?
-		sha256 '7aa3ba7ce9dcd9a6149f1064f97b5514b0525f482741b216d828e8cc662cf375'
+		sha256 '869c431d48fdb25f82c609ae7534db44a5335c865c3981ba2d387b1c2c8cc49c'
 
-		url "https://download.bell-sw.com/java/23.0.1%2B13/bellsoft-jdk23.0.1%2B13-macos-amd64-lite.pkg"
-  		pkg 'bellsoft-jdk23.0.1+13-macos-amd64-lite.pkg'
+		url "https://download.bell-sw.com/java/23.0.2%2B9/bellsoft-jdk23.0.2%2B9-macos-amd64-lite.pkg"
+  		pkg 'bellsoft-jdk23.0.2+9-macos-amd64-lite.pkg'
 	else
-		sha256 '3e2fa5ed076b0620c11f0b79a74fb89c2f6b15d0acf06accb01d5368959611cf'
+		sha256 '3fa647bd9b3a65fc71877246fafd61b4d54021db28395f569278f3514d9e1e41'
 
-		url "https://download.bell-sw.com/java/23.0.1%2B13/bellsoft-jdk23.0.1%2B13-macos-aarch64-lite.pkg"
-  		pkg 'bellsoft-jdk23.0.1+13-macos-aarch64-lite.pkg'
+		url "https://download.bell-sw.com/java/23.0.2%2B9/bellsoft-jdk23.0.2%2B9-macos-aarch64-lite.pkg"
+  		pkg 'bellsoft-jdk23.0.2+9-macos-aarch64-lite.pkg'
 	end
 
 	name 'BellSoft Liberica JDK 23'
