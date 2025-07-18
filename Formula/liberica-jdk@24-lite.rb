@@ -1,9 +1,9 @@
 class LibericaJdkAT24Lite < Formula
   desc "100% open-source Java implementation"
   homepage "https://bell-sw.com/"
-  url "https://download.bell-sw.com/java/24.0.1%2B11/bellsoft-jdk24.0.1%2B11-linux-amd64-lite.tar.gz"
-  version "24.0.1.11"
-  sha256 "91bd85101fddbddf9f558199aec142e8d9b16f06877042109d47277fb65ad2a3"
+  url "https://download.bell-sw.com/java/24.0.2%2B12/bellsoft-jdk24.0.2%2B12-linux-amd64-lite.tar.gz"
+  version "24.0.2.12"
+  sha256 "78fbe281c3f14116bd6671e4f9f13729285e0a73c9da000538704f0e3085f824"
 
   depends_on :linux
 
