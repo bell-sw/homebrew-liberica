@@ -1,17 +1,17 @@
 cask 'liberica-jdk17-lite' do
 	desc "100% open-source Java implementation"
-	version '17.0.18,10'
+	version '17.0.19,11'
 
 	if Hardware::CPU.intel?
-		sha256 '39ffd998798d6851c9a0df2d7fc1bb5059dc843ebfa13508927207c3301ca734'
+		sha256 '18a032b304ceff7dc513676f0d879fc179dc1a11519e5e486d330bc9177b6489'
 
-		url "https://download.bell-sw.com/java/17.0.18%2B10/bellsoft-jdk17.0.18%2B10-macos-amd64-lite.pkg"
-  		pkg 'bellsoft-jdk17.0.18+10-macos-amd64-lite.pkg'
+		url "https://download.bell-sw.com/java/17.0.19%2B11/bellsoft-jdk17.0.19%2B11-macos-amd64-lite.pkg"
+  		pkg 'bellsoft-jdk17.0.19+11-macos-amd64-lite.pkg'
 	else
-		sha256 '18a4df541ab342b65748f7ec4023e2559061171b06f71d31d377c50098ab9f2f'
+		sha256 '942c34d8fee26072099601ad649ef56b5ea79128ba337af9a96ac2a5dd991e4e'
 
-		url "https://download.bell-sw.com/java/17.0.18%2B10/bellsoft-jdk17.0.18%2B10-macos-aarch64-lite.pkg"
-  		pkg 'bellsoft-jdk17.0.18+10-macos-aarch64-lite.pkg'
+		url "https://download.bell-sw.com/java/17.0.19%2B11/bellsoft-jdk17.0.19%2B11-macos-aarch64-lite.pkg"
+  		pkg 'bellsoft-jdk17.0.19+11-macos-aarch64-lite.pkg'
 	end
 
 	name 'BellSoft Liberica JDK 17'
