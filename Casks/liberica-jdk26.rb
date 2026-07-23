@@ -1,17 +1,17 @@
 cask 'liberica-jdk26' do
 	desc "100% open-source Java implementation"
-	version '26.0.1,10'
+	version '26.0.2,13'
 
 	if Hardware::CPU.intel?
-		sha256 '6d62606d76b67165212d702de2f3189dad76e150d2b8ed30ead461e586993a64'
+		sha256 'c85652b7553f9c1ff65529db9bdad3b6413a97cfc5777fa7e761281b7cfa0e94'
 
-		url "https://download.bell-sw.com/java/26.0.1%2B10/bellsoft-jdk26.0.1%2B10-macos-amd64.pkg"
-  		pkg 'bellsoft-jdk26.0.1+10-macos-amd64.pkg'
+		url "https://download.bell-sw.com/java/26.0.2%2B13/bellsoft-jdk26.0.2%2B13-macos-amd64.pkg"
+  		pkg 'bellsoft-jdk26.0.2+13-macos-amd64.pkg'
 	else
-		sha256 '3d61637762c6a7a7a67e5087dd833cad8c4a86484d828cf12267ac87130922a1'
+		sha256 'dcc1cef8cdeae29dd5f980e938d2a29b295fe1e54a9d3e325ccc8ea19ee67e17'
 
-		url "https://download.bell-sw.com/java/26.0.1%2B10/bellsoft-jdk26.0.1%2B10-macos-aarch64.pkg"
-  		pkg 'bellsoft-jdk26.0.1+10-macos-aarch64.pkg'
+		url "https://download.bell-sw.com/java/26.0.2%2B13/bellsoft-jdk26.0.2%2B13-macos-aarch64.pkg"
+  		pkg 'bellsoft-jdk26.0.2+13-macos-aarch64.pkg'
 	end
 
 	name 'BellSoft Liberica JDK 26'

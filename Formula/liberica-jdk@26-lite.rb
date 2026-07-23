@@ -1,9 +1,9 @@
 class LibericaJdkAT26Lite < Formula
   desc "100% open-source Java implementation"
   homepage "https://bell-sw.com/"
-  url "https://download.bell-sw.com/java/26.0.1%2B10/bellsoft-jdk26.0.1%2B10-linux-amd64-lite.tar.gz"
-  version "26.0.1.10"
-  sha256 "3b1cf43ae0a7fb15a55e8f57777a79cc1e4339c4c687232cba9b362e58c0ad18"
+  url "https://download.bell-sw.com/java/26.0.2%2B13/bellsoft-jdk26.0.2%2B13-linux-amd64-lite.tar.gz"
+  version "26.0.2.13"
+  sha256 "4f4a9d757c1b659f37d75748510f2b9b4eb592a115ec78e903c5a992d890839f"
 
   depends_on :linux
 

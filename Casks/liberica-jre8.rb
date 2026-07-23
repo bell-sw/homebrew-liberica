@@ -1,17 +1,17 @@
 cask 'liberica-jre8' do
 	desc "100% open-source Java implementation"
-	version '1.8.0,492'
+	version '1.8.0,502'
 
 	if Hardware::CPU.intel?
-		sha256 'be3326bad48bd9395b8e5a91a432f78d1d3b1f58a7b6049053fc3e7b223d8acb'
+		sha256 '3f9a534d82a8b0b5beb8dd58420af48a49b7ec305f49ad405d11e47721797505'
 
-		url "https://download.bell-sw.com/java/8u492%2B9/bellsoft-jre8u492%2B9-macos-amd64.pkg"
-  		pkg 'bellsoft-jre8u492+9-macos-amd64.pkg'
+		url "https://download.bell-sw.com/java/8u502%2B9/bellsoft-jre8u502%2B9-macos-amd64.pkg"
+  		pkg 'bellsoft-jre8u502+9-macos-amd64.pkg'
 	else
-		sha256 '7e00e8fdc19072cd6a93fd40b0aa163682de803b44fab56ab04713e95c432077'
+		sha256 '7e5746e454d31603b6a4278d94fe8b90670322778580233db859835acb507469'
 
-		url "https://download.bell-sw.com/java/8u492%2B9/bellsoft-jre8u492%2B9-macos-aarch64.pkg"
-  		pkg 'bellsoft-jre8u492+9-macos-aarch64.pkg'
+		url "https://download.bell-sw.com/java/8u502%2B9/bellsoft-jre8u502%2B9-macos-aarch64.pkg"
+  		pkg 'bellsoft-jre8u502+9-macos-aarch64.pkg'
 	end
 
 	name 'BellSoft Liberica JRE 8'
