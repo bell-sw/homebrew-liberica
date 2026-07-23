@@ -1,17 +1,17 @@
 cask 'liberica-jdk25' do
 	desc "100% open-source Java implementation"
-	version '25.0.3,11'
+	version '25.0.4,9'
 
 	if Hardware::CPU.intel?
-		sha256 'd93c7ee35bae01424c659c3aa6d436c254e7270ccf7dace306dd661e7b6f755c'
+		sha256 '048b19c6fca9f38f22594e6b0b926fc8876ab0801e332f689fa15ce52ef96799'
 
-		url "https://download.bell-sw.com/java/25.0.3%2B11/bellsoft-jdk25.0.3%2B11-macos-amd64.pkg"
-  		pkg 'bellsoft-jdk25.0.3+11-macos-amd64.pkg'
+		url "https://download.bell-sw.com/java/25.0.4%2B9/bellsoft-jdk25.0.4%2B9-macos-amd64.pkg"
+  		pkg 'bellsoft-jdk25.0.4+9-macos-amd64.pkg'
 	else
-		sha256 '5ed2c89579c3698d255f685e52ce796c5103e8f4c94df3d685453e686482980a'
+		sha256 '6d478506f7d87c53bf5a5936b333fff827bbb7b03d5d51c1bf757a5aaee2dc9e'
 
-		url "https://download.bell-sw.com/java/25.0.3%2B11/bellsoft-jdk25.0.3%2B11-macos-aarch64.pkg"
-  		pkg 'bellsoft-jdk25.0.3+11-macos-aarch64.pkg'
+		url "https://download.bell-sw.com/java/25.0.4%2B9/bellsoft-jdk25.0.4%2B9-macos-aarch64.pkg"
+  		pkg 'bellsoft-jdk25.0.4+9-macos-aarch64.pkg'
 	end
 
 	name 'BellSoft Liberica JDK 25'

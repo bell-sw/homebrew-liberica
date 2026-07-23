@@ -1,9 +1,9 @@
 class LibericaJdkAT25Full < Formula
   desc "100% open-source Java implementation"
   homepage "https://bell-sw.com/"
-  url "https://download.bell-sw.com/java/25.0.3%2B11/bellsoft-jdk25.0.3%2B11-linux-amd64-full.tar.gz"
-  version "25.0.3.11"
-  sha256 "2d0e145c401d0e555e9b3aad977a3a700fbd666bc7d4524720267dd80eb3be42"
+  url "https://download.bell-sw.com/java/25.0.4%2B9/bellsoft-jdk25.0.4%2B9-linux-amd64-full.tar.gz"
+  version "25.0.4.9"
+  sha256 "c0ca9dc440dcd048c1a21a90017e3e6b0122e68b9bd245855bf8e974fc07c9d2"
 
   depends_on :linux
 
