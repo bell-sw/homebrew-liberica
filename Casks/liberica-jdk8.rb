@@ -1,17 +1,17 @@
 cask 'liberica-jdk8' do
 	desc "100% open-source Java implementation"
-	version '1.8.0,502'
+	version '1.8.0,504'
 
 	if Hardware::CPU.intel?
-		sha256 '966ce4efc54e4d8cec18b7107161d4ecea939c2f96f2071862d45723897c5fde'
+		sha256 '0ee238eb1a75490ba457f3eca9f7fe6c5ead207b138fe63557476e7418b8fb03'
 
-		url "https://download.bell-sw.com/java/8u502%2B9/bellsoft-jdk8u502%2B9-macos-amd64.pkg"
-  		pkg 'bellsoft-jdk8u502+9-macos-amd64.pkg'
+		url "https://download.bell-sw.com/java/8u504%2B1/bellsoft-jdk8u504%2B1-macos-amd64.pkg"
+  		pkg 'bellsoft-jdk8u504+1-macos-amd64.pkg'
 	else
-		sha256 'e055430d094c4b44fe11cb095b609f0e55b72ba306807ca73fb3ecb734759650'
+		sha256 '7db9526656f8b4b68604cd437af77676e3f30fdc05e1dfb2781eed5f74a9e72e'
 
-		url "https://download.bell-sw.com/java/8u502%2B9/bellsoft-jdk8u502%2B9-macos-aarch64.pkg"
-  		pkg 'bellsoft-jdk8u502+9-macos-aarch64.pkg'
+		url "https://download.bell-sw.com/java/8u504%2B1/bellsoft-jdk8u504%2B1-macos-aarch64.pkg"
+  		pkg 'bellsoft-jdk8u504+1-macos-aarch64.pkg'
 	end
 
 	name 'BellSoft Liberica JDK 8'
