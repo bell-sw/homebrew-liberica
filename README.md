@@ -18,7 +18,8 @@ List of available packages:
 
 | Package | Version | Actual version |
 | ------- | ------- | -------------- |
-| liberica-jdk26 | Liberica JDK 25 | 26.0.2.1 |
+| liberica-jdk27 | Liberica JDK 27 | 26.0.0 |
+| liberica-jdk26 | Liberica JDK 26 | 26.0.2.1 |
 | liberica-jdk26-lite | Liberica JDK 25 Lite version | 26.0.2.1 |
 | liberica-jdk26-full | Liberica JDK 25 Full version | 26.0.2.1 |
 | liberica-jdk25 | Liberica JDK 25 | 25.0.4.1 |
@@ -109,9 +110,12 @@ List of available packages:
 
 | Package | Version | Actual version |
 | ------- | ------- | -------------- |
-| liberica-jdk@26 | Liberica JDK 25 | 26.0.2.1 |
-| liberica-jdk@26-lite | Liberica JDK 25 Lite Version | 26.0.2.1 |
-| liberica-jdk@26-full | Liberica JDK 25 Full Version | 26.0.2.1 |
+| liberica-jdk@27 | Liberica JDK 27 | 27.0.0 |
+| liberica-jdk@27-lite | Liberica JDK 27 Lite Version | 27.0.0 |
+| liberica-jdk@27-full | Liberica JDK 27 Full Version | 27.0.0 |
+| liberica-jdk@26 | Liberica JDK 26 | 26.0.2.1 |
+| liberica-jdk@26-lite | Liberica JDK 26 Lite Version | 26.0.2.1 |
+| liberica-jdk@26-full | Liberica JDK 26 Full Version | 26.0.2.1 |
 | liberica-jdk@25 | Liberica JDK 25 | 25.0.4.1 |
 | liberica-jdk@25-lite | Liberica JDK 25 Lite Version | 25.0.4.1 |
 | liberica-jdk@25-full | Liberica JDK 25 Full Version | 25.0.4.1 |
