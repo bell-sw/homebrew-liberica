@@ -1,17 +1,17 @@
 cask 'liberica-jre27' do
 	desc "100% open-source Java implementation"
-	version '27,36'
+	version '27.0.1.0.3,5'
 
 	if Hardware::CPU.intel?
-		sha256 '25fc8ffda2b7d2c6bc7a5a09b202719d1617c05d16580d03f19ab30e7e1bbce7'
+		sha256 '79c292cc41cf13e73caa1ba1216e1894757aac9012db4317f2d5f9975e9cb7ad'
 
-		url "https://download.bell-sw.com/java/27%2B36/bellsoft-jre27%2B36-macos-amd64.pkg"
-  		pkg 'bellsoft-jre27+36-macos-amd64.pkg'
+		url "https://download.bell-sw.com/java/27.0.1.0.3%2B5/bellsoft-jre27.0.1.0.3%2B5-macos-amd64.pkg"
+  		pkg 'bellsoft-jre27.0.1.0.3+5-macos-amd64.pkg'
 	else
-		sha256 '5380960b9bf49feb89d0bca224c66bc34835779ceb9ddeb683d44b6d5407e500'
+		sha256 'cf4c1c0d0f83e1ca6ccf391b8cd237d6483f6e3cc06026519e53920368624e61'
 
-		url "https://download.bell-sw.com/java/27%2B36/bellsoft-jre27%2B36-macos-aarch64.pkg"
-  		pkg 'bellsoft-jre27+36-macos-aarch64.pkg'
+		url "https://download.bell-sw.com/java/27.0.1.0.3%2B5/bellsoft-jre27.0.1.0.3%2B5-macos-aarch64.pkg"
+  		pkg 'bellsoft-jre27.0.1.0.3+5-macos-aarch64.pkg'
 	end
 
 	name 'BellSoft Liberica JRE 27'
