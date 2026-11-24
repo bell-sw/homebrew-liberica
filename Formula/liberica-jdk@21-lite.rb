@@ -1,9 +1,9 @@
 class LibericaJdkAT21Lite < Formula
   desc "100% open-source Java implementation"
   homepage "https://bell-sw.com/"
-  url "https://download.bell-sw.com/java/21.0.13.0.3%2B5/bellsoft-jdk21.0.13.0.3%2B5-linux-amd64-lite.tar.gz"
-  version "21.0.13.0.3.5"
-  sha256 "cc25f7e60975893513477904ea993e217d913f139d2c0cc496660a57de5996bb"
+  url "https://download.bell-sw.com/java/21.0.13.1%2B5/bellsoft-jdk21.0.13.1%2B5-linux-amd64-lite.tar.gz"
+  version "21.0.13.1.5"
+  sha256 "289e6b398834e356d35462364d8397847e50b446f23c5ae4bb8d456729791423"
 
   depends_on :linux
 
